@@ -13,7 +13,12 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-   if snacks.include?(cheese_types[0]) return cheese_types[0]
+   if snacks.include?(cheese_types[0]) 
+     return cheese_types[0]
+   elsif snacks.include?(cheese_types[1]) 
+     return cheese_types[1]
+     
+  
 
 
 
