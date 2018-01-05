@@ -8,9 +8,9 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(words)
-  i = 0
-  until i==length.words
-    if words[i].length >4 return true
+  words.each do |i|
+    if i.length > 4 return true
+  end
   # Your code here
 end
 
