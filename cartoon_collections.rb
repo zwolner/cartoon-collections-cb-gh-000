@@ -19,6 +19,8 @@ def find_the_cheese(snacks)
      return cheese_types[1]
    elsif snacks.include?(cheese_types[2])
      return cheese_types[2]
+   else
+     nil
 
 
 
