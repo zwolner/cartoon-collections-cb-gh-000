@@ -12,7 +12,6 @@ def long_planeteer_calls(words)
     return false
   else
     return true
-    end
   end
   # Your code here
 end
